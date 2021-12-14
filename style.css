@@ -1,0 +1,82 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+  
+body{
+    min-height:100vh;
+    transition: 0.5s;
+    transition-timing-function: ease-in;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+h1{
+    font-size: 2.5rem;
+    color: rgb(119, 52, 103);
+}
+
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 10px;
+ 
+}
+
+.quote
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+hr {
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid black;
+    background-color: black;
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9px;
+}
+
+#Quote-Display{
+    color: rgb(33, 3, 56);
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.next
+{
+    font-size:1rem;
+    border-radius: 6px;
+    cursor:pointer;
+    padding: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, #2a0537, #6f1c3e, #9f4e3b, #b58b43, #b0cb72);
+}
+.container:hover
+{
+    box-shadow: 0 10px 10px rgb(74, 79, 31)
+}
